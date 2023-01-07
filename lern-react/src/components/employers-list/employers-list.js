@@ -4,12 +4,12 @@ import './employers-list.css';
 
 const EmployersList = ({data}) => {
 
-    const elements = data.map(item => {
+    const elements = data.map(item => { //Використовуємо метод масиву map.
+        const {id, ...itemProps} = item; //Використовуємо деструктуризацію для скорочення коду (name={item.name} salary={item.salary}).
         return (
-            <EmployersListItem {...item} />
-            //Використовуємо деструктуризацію для скорочення коду (name={item.name} salary={item.salary}).
-        )
-    })
+            <EmployersListItem key={id} {...itemProps} /> //Призначаємо key для запобігання помилки.
+        );
+    });
 
     return (
         <div>
