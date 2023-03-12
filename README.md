@@ -1,10 +1,13 @@
-# Getting Started with Create React App
+# Simple React app for employee management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple React app for employee management for keeping track of company employees, marking employees who are going for a promotion, and implementing employee filtering based on various categories.
 
-## Available Scripts
+## You can view the completed project at the link:
 
-In the project directory, you can run:
+[https://my-employees-react-app.vercel.app/](https://my-employees-react-app.vercel.app/)
+
+
+
 
 ### `npm start`
 
